@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
             for (int i = 0; i < grantResults.length; i++) {
                 if (grantResults[i] == PackageManager.PERMISSION_GRANTED) {
                     Toast.makeText(MainActivity.this,"成功开启",Toast.LENGTH_LONG).show();
+
                 } else {
                     Toast.makeText(MainActivity.this,"失败开启",Toast.LENGTH_LONG).show();
                 }
